@@ -25,7 +25,7 @@ p{
 }
 section{
     height: 500px;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 .header{
     background-image: url(images/top-banner.png);
@@ -83,4 +83,9 @@ section{
     border-left: 10px solid;
     border-image: linear-gradient(aqua, blue);
     border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(104, 104, 104);
 }
