@@ -9,6 +9,12 @@ h1{
     font-weight: 400;
 }
 
+h2{
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
 p{
     font-size: 18px;
 
@@ -55,4 +61,26 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.experience div{
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.562);
+    height: 80%
+}
+
+
+
+#exp_full{
+    border-left: 10px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#exp_baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(aqua, blue);
+    border-image-slice: 1;
 }
